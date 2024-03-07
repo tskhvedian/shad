@@ -1,12 +1,12 @@
-import React from "react";
-import { Button } from "./components/ui/button";
+import * as z from "zod";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <Button>Click me</Button>
-    </div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <h1>HELLO</h1>
+    </main>
   );
 };
 
